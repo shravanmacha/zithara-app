@@ -34,7 +34,7 @@ function App() {
         </div>
       ) : customersList.length === 0 ? (
         <div className="text-center">
-          <h4>No Data Found</h4>
+          <h4>No Customers Found</h4>
         </div>
       ) : (
         <Table>
